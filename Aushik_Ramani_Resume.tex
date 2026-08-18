@@ -1,0 +1,287 @@
+\documentclass[10pt,a4paper]{article}
+
+% ------------------------------------------------------------
+% Aushik Ramani resume - LaTeX recreation of the supplied PDF format
+% Compile with pdfLaTeX on Overleaf.
+% ------------------------------------------------------------
+\usepackage[a4paper,left=13.46mm,right=13.46mm,top=8mm,bottom=8mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{microtype}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\color{black}
+
+% Font weight helpers
+\newcommand{\mregular}{\fontseries{m}\selectfont}
+\newcommand{\mmedium}{\fontseries{b}\selectfont}
+\newcommand{\mbold}{\fontseries{b}\selectfont}
+\newcommand{\mblack}{\fontseries{bx}\selectfont}
+
+% Section heading with underline.
+% Optional first argument is heading size in pt.
+\newcommand{\cvsection}[2][10]{%
+  {\fontsize{#1}{12}\selectfont\mmedium\MakeUppercase{#2}\par}%
+  \vspace{8pt}%
+  \hrule height 1.5pt
+  \vspace{4pt}%
+}
+
+\newcommand{\leftbullets}[1]{%
+  \begin{itemize}[
+    leftmargin=17pt,
+    labelsep=7.0pt,
+    itemsep=4.3pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+  ]
+  #1
+  \end{itemize}%
+}
+
+\newcommand{\rightbullets}[1]{%
+  \begin{itemize}[
+    leftmargin=21pt,
+    labelsep=8pt,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+  ]
+  #1
+  \end{itemize}%
+}
+
+\begin{document}
+
+% ============================ HEADER ============================
+\begin{minipage}[t]{0.51\textwidth}
+  \vspace{0pt}
+  {\fontsize{32}{32}\selectfont\mblack DR. AUSHIK\par}
+  \vspace{2pt}
+  {\fontsize{32}{32}\selectfont\mblack RAMANI\par}
+  \vspace{10pt}
+  {\fontsize{14}{16}\selectfont\mbold M.B.B.S\par}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.425\textwidth}
+  \vspace{0pt}
+  {\fontsize{9.5}{13}\selectfont\mregular
+    E-mail : aushik.ramani1999@gmail.com\par
+    Mobile no. : +918490807156\par
+    Address : 12/B Bhagvati krupa soc; Punagam, Surat 395006.\par
+  }
+\end{minipage}
+
+\vspace{3mm}
+\hrule height 1.5pt
+\vspace{2mm}
+
+% ============================ PROFILE ============================
+{\fontsize{9.5}{12.5}\selectfont\mregular\justifying\noindent
+I'm dedicated and experienced in patient counseling,diagnostics, progression based on patient
+histories, examinations and effective bedside care and health risk assessments. Supportive and
+committed to following directions and comprehensive patient care and education. Successful at
+managing and closely monitoring the patient's vitals.\par}
+
+\vspace{1.5mm}
+
+% ============================ TWO-COLUMN BODY ============================
+% Fixed widths reproduce the original column positions closely.
+\makebox[\textwidth][l]{%
+\begin{minipage}[t]{190pt}
+\vspace{0pt}
+
+% EDUCATION
+\hspace*{2.85pt}\begin{minipage}{187pt}
+\cvsection[10]{Education}
+\end{minipage}
+
+{\fontsize{11}{15}\selectfont\mmedium
+\hspace*{2.85pt}KURSK STATE MEDICAL UNIVERSITY\par
+\hspace*{2.85pt}Kursk, Russia\par
+\hspace*{2.85pt}\begin{tabularx}{184pt}{@{}X r@{}}
+M.B.B.S & 2017-2023
+\end{tabularx}
+}
+
+\vspace{5pt}
+
+{\fontsize{11}{15}\selectfont\mmedium
+\hspace*{2.85pt}NMC ORIENTED FMGE\par
+\hspace*{2.85pt}\begin{tabularx}{184pt}{@{}X r@{}}
+181 / 300 & June, 2023
+\end{tabularx}
+}
+
+\vspace{6pt}
+
+{\fontsize{11}{15}\selectfont\mregular
+\hspace*{2.85pt}Provisonal Registration No.\hfill
+{\mmedium GPR-73725}\par
+}
+
+\vspace{20pt}
+
+% SKILLS
+\hspace*{2.85pt}\begin{minipage}{187pt}
+{\fontsize{11.3}{13.7}\selectfont\mmedium SKILLS\par}
+\vspace{6pt}
+\hrule height 1.5pt
+\vspace{6pt}
+\end{minipage}
+
+{\fontsize{11}{18}\selectfont\mregular
+\leftbullets{
+  \item Patient counseling
+  \item Primary care
+  \item Health Risk Assessments
+  \item Treatment regimens
+  \item Bedside care
+  \item Diagnostics
+}}
+
+\vspace{20pt}
+
+% EXTRACURRICULAR ACTIVITY
+{\fontsize{11}{15}\selectfont\mmedium EXTRACURRICULAR ACTIVITY\par}
+\vspace{3pt}
+\hrule height 1.5pt
+\vspace{3pt}
+
+{\fontsize{11}{17.3}\selectfont\mregular
+\begin{itemize}[
+  leftmargin=17pt,
+  labelsep=8pt,
+  itemsep=0.5pt,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt
+]
+  \item Emeregency medical services trainer
+  \item Clinical volunteer work
+  \item Heltch camp assistant doctor
+  \item AIDS awareness camp
+  \item Nutrition awareness program in\\ schools
+\end{itemize}
+}
+
+\end{minipage}%
+\hspace{30pt}%
+\begin{minipage}[t]{280pt}
+\vspace{0pt}
+
+% WORK EXPERIENCE
+\cvsection[10]{Work Experience}
+
+{\fontsize{11}{15}\selectfont
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+{\mmedium Junior Resident - Psychiatry Department} & {\mmedium 2025-26}
+\end{tabularx}
+{\mregular GMERS Medical College, Navsari\par}
+}
+
+\vspace{4pt}
+
+{\fontsize{11}{15}\selectfont\mregular\justifying
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{itemize}[
+  leftmargin=17pt,
+  labelsep=8pt,
+  itemsep=1.5pt,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt
+]
+  \item Conducted mental health assessments and psychiatric evaluations to diagnose and formulate treatment plans for patients with various psychological conditions.
+
+  \item Provided patient counseling and health education on mental health awareness, coping strategies, and treatment options to promote holistic well-being.
+
+  \item Participated in addiction de-addiction programs, supporting patients through recovery pathways and providing motivational counseling for substance abuse management.
+
+  \item Collaborated with psychiatrists and multidisciplinary healthcare team to coordinate patient care and monitor treatment progress.
+\end{itemize}
+}
+
+\vspace{10pt}
+
+{\fontsize{11}{15}\selectfont
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+{\mmedium INTERNSHIP} & {\mmedium 2023-24}
+\end{tabularx}
+{\mregular Shantabaa Medical College \& General Hospital,\par
+Amreli\par}
+}
+
+\vspace{4pt}
+
+{\fontsize{11}{15}\selectfont\mregular\justifying
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{itemize}[
+  leftmargin=17pt,
+  labelsep=8pt,
+  itemsep=1.5pt,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt
+]
+  \item Took medical histories of patients and performed physical exams. Assessed medical test results to identify abnormal findings. Ordered additional tests and consultations for other healthcare staff to conduct.
+
+  \item Performed bedside procedures such as venipuncture or IV placement, RT/Foley insertion, suture and dressing of wound, ascitic tapping with minimal complications, improving patients\textquotedbl{} comfort levels.
+
+  \item Prescribing medication, interpreting test results, assessing symptoms, and diagnosing conditions at CHC center.
+\end{itemize}
+}
+
+\vspace{10pt}
+
+{\fontsize{11}{15}\selectfont
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+{\mmedium Rotationary Medical internship} & {\mmedium 2022-23}
+\end{tabularx}
+
+{\mregular
+Kursk State Medical University,\par
+Russia\par
+}
+}
+
+\vspace{4pt}
+
+{\fontsize{11}{15}\selectfont\mregular\justifying
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{itemize}[
+  leftmargin=17pt,
+  labelsep=8pt,
+  itemsep=1.5pt,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt
+]
+  \item Took basic patient information and recorded vital signs.
+
+  \item Conducted physical examinations for periodic health assessments, ensuring accurate evaluation of overall health status for each patient.
+\end{itemize}
+}
+
+\end{minipage}%
+}
+
+\end{document}
