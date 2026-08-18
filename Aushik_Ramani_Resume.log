@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.18)  18 AUG 2026 09:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.18)  18 AUG 2026 09:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -384,13 +384,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[]\T1/phv/m/n/11 (+20) Participated in ad-dic-tion de-addiction pro-grams,
+Underfull \hbox (badness 3668) in paragraph at lines 285--285
+\T1/phv/m/n/11 (+20) pa-tients through re-cov-ery path-ways and pro-vid-ing
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 285--285
-\T1/phv/m/n/11 (+20) sup-port-ing pa-tients through re-cov-ery path-ways and
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+\T1/phv/m/n/11 (+20) mo-ti-va-tional coun-sel-ing for sub-stance abuse
  []
 
 
@@ -398,9 +398,34 @@ Underfull \hbox (badness 2529) in paragraph at lines 285--285
 []\T1/phv/m/n/11 (+20) Collaborated with psy-chi-a-trists and mul-ti-dis-ci-plinary
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]\T1/phv/m/n/11 (+20) Demonstrated pro-fi-ciency in per-form-ing bed-side
+ []
+
+
+Underfull \hbox (badness 7925) in paragraph at lines 285--285
+\T1/phv/m/n/11 (+20) pro-ce-dures in-clud-ing venipunc-ture, IV place-ment,
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 285--285
+\T1/phv/m/n/11 (+20) test re-sults, as-sess-ing symp-toms, and di-ag-nos-ing
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 285--285
+[]\T1/phv/m/n/11 (+20) Collected and doc-u-mented pa-tient in-for-ma-tion and
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 285--285
+\T1/phv/m/n/11 (+20) recorded vi-tal signs ac-cu-rately to sup-port clin-i-cal
+ []
+
 [1
 
-{C:/Users/acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (Aushik_Ramani_Resume.aux)
+{C:/Users/acer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2] (Aushik_Ramani_Resume.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -414,17 +439,17 @@ Package rerunfilecheck Info: File `Aushik_Ramani_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11918 strings out of 467871
- 189303 string characters out of 5418860
- 656710 words of memory out of 5000000
+ 11919 strings out of 467871
+ 189309 string characters out of 5418860
+ 648710 words of memory out of 5000000
  40574 multiletter control sequences out of 15000+600000
  660590 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1041b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1041b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/acer/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Aushik_Ramani_Resume.pdf (1 page, 29630 bytes).
+Output written on Aushik_Ramani_Resume.pdf (2 pages, 30139 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 26 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  51201 words of extra memory for PDF output out of 51595 (max. 10000000)
 
